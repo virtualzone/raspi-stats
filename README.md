@@ -26,7 +26,7 @@ services:
     environment:
       HOST: 'mqtt'
       PORT: '1883'
-      USER=raspi: 'stats'
+      USER: 'stats'
       PASS: 'changeme'
       TOPIC: 'raspi'
       INTERVAL: 30
